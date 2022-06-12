@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Chào mừng các bạn đã đến website của tui ,web game laravel</h1>
+    {!! '<b>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</b>' !!}
 </body>
 </html>
