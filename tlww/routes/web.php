@@ -14,4 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('call-controller', 'taotkcontroller@index');
+Route::get('/', function () {
+    return view('taotk');
+});
