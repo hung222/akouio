@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Chào mừng các bạn đã đến websitegameol</h1>
+    {!! '<b>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</b>' !!}
 </body>
 </html>
