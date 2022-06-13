@@ -6,6 +6,7 @@
     @parent
 
     <p>cc.</p>
+    {{!hello}}
 @endsection
 
 @section('content')
