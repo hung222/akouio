@@ -1,6 +1,16 @@
-@php
-  $frameworks = array('first' => 'Laravel', 'second' => 'CodeIgniter', 'third' => 'Yii'); 
-@endphp
-@foreach ($frameworks as $frm)
-  {{ $frm }}
-@endforeach
+<html>
+    <head>
+        <title>All Laravel - @yield('title')</title>
+    </head>
+    <body>
+
+        @section('sidebar')
+            Phần chính trong sidebar.
+        @show
+
+        <div class="container">
+            @yield('content')
+        </div>
+
+    </body>
+</html>
