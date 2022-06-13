@@ -14,6 +14,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('call-views', function(){
-  return view('cc');
+  return view('trangke');
 });
 
