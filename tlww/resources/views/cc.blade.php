@@ -1,14 +1,6 @@
-@extends('layouts.cc')
-
-@section('title', 'twct')
-
-@section('sidebar')
-    @parent
-
-    <p>cc.</p>
-    <h2>trang web về game {{ $name or 'All gb' }}.</h2>
-@endsection
-
-@section('content')
-    <p>ccccccccccccc.</p>
-@endsection
+<html>
+  <title>gbgbgbgbgbgbgbgb</title>
+<body>
+  <h1>Ví dụ về view trong gb</h1>
+</body>
+</html>
