@@ -14,6 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('first-blade-example', function(){
-  return view('fontend.first-blade-example');
+Route::get('cc', function(){
+  return view('cc');
 });
