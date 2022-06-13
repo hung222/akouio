@@ -6,7 +6,7 @@
     @parent
 
     <p>cc.</p>
-    {{!hello}}
+    <h2>trang web về game {{ $name or 'All gb' }}.</h2>
 @endsection
 
 @section('content')
