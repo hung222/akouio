@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Blade template</title>
-    <link rel="stylesheet" href="">
-</head>
-<body>
-    <h1>Chào mừng các bạn đã đến website của tui ,web game laravel</h1>
-    {!! '<b>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</b>' !!}
-</body>
-</html>
+@php
+  $frameworks = array('first' => 'Laravel', 'second' => 'CodeIgniter', 'third' => 'Yii'); 
+@endphp
+@foreach ($frameworks as $frm)
+  {{ $frm }}
+@endforeach
