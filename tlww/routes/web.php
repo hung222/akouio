@@ -13,7 +13,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('cc', function(){
+Route::get('call-views', function(){
   return view('cc');
 });
 
