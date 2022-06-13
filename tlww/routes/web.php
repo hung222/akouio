@@ -13,7 +13,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('trangke', function(){
-  return view('trangke');
+Route::get('cc', function(){
+  return view('cc');
 });
 
