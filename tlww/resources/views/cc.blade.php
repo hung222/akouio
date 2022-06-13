@@ -1,20 +1,19 @@
 <html>
     <head>
-        <title>All Laravel - @yield('title')</title>
+        <title>trangke - @yield('title')</title>
     </head>
     <body>
         <div id="menu">
             <ul>
-                <li><a href="/">Trang chủ</a></li>
-                <li><a href="/first-blade-example">Ví dụ</a></li>
-                <li><a href="/contact">Liên hệ </a></li>
+                <li><a href="/">cca></li>
+                <li><a href="/trangke">Ví dụ</a></li>
             </ul>    
         </div>
 
         @section('sidebar')
             Phần chính trong sidebar.
         @show
-
+<h1>hật là xuix ẻo</h1>
         <div class="container">
             @yield('content')
         </div>
