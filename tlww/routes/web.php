@@ -14,3 +14,4 @@
 Route::get('cc', function(){
   return view('cc');
 });
+
