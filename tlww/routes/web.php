@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('cc', function(){
-  return view('cc');
+Route::get('trangke', function(){
+  return view('trangke');
 });
 
