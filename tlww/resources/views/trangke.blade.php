@@ -1,6 +1,6 @@
-@extends('layouts.default')
+@extends('layouts.cc')
 
-@section('title', 'Ví dụ đầu tiên về Blade template')
+@section('title', 'Ví dụ đầu tiên về trang web về game')
 
 @section('sidebar')
     @parent
@@ -9,5 +9,5 @@
 @endsection
 
 @section('content')
-    <p>gbgbgb.</p>
+    <p>gbgbgbgbgbgbgbgbgbbgbg.</p>
 @endsection
